@@ -8,7 +8,7 @@ import '../models/language_model.dart';
 class ApiService {
   late final Dio _dio;
   static const String baseUrl =
-      'http://ip-185-177-73-30-121929.vps.hosted-by-mvps.net/api'; // Updated to use your API
+      'http://convey.islam.alshykh.net//api'; // Updated to use your API
 
   ApiService() {
     _dio = Dio(BaseOptions(
